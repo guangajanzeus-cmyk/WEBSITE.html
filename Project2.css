@@ -1,0 +1,658 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 500px;
+    font-style: italic;
+    color: #ff0000;
+    -webkit-text-stroke: 1px #ffffff;
+}
+hr {
+    margin-left: -500px;
+    margin-right: -500px;
+    border: solid;
+    border-color: gold;
+}
+h3 {
+    margin-left: 490px;
+    margin-top: -10px;
+    font-style: italic;
+    font-family: sans-serif;
+    color: goldenrod;
+    -webkit-text-stroke: 1px #eb766e ;
+}
+h2 {
+    font-weight: 100px;
+    font-size: 50px;
+    margin-top: -20px;
+    color: rgb(42, 64, 65);
+    -webkit-text-stroke: 1px #ffffff;
+}
+body {
+    background-image: url(image/yuji-itadori-3840x2160-25681.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0px
+}
+#G1 {
+    margin-top: -50px;
+    height: 500px;
+    width: 325px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 10px;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+#G1:hover {
+    color: gold;
+    box-shadow: 0 0 30px rgb(40, 97, 255);
+}
+.G1 {
+    margin-top: -95px;
+    margin-left: 60px;
+    border: 10px solid transparent;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 650px;
+   
+}
+.G1:hover {
+    color: gold;
+    box-shadow: 0 0 30px gold;
+    background-color: #2a2709;
+}
+#Text1 {
+    color: #ffffff;
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+    margin-top: -15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 480px;
+    font-size: 25px;
+    color: #ffffff;
+    -webkit-text-stroke: 1px gold;
+    background-color: rgb(94, 4, 4);
+    border-color: gold;
+    border: 10px solid transparent;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: rgba(10, 0, 0, 0.7)
+}
+#Text1:hover {
+    color: gold;
+    box-shadow: 0 0 15px gold;
+}
+#G2 {
+    margin-top: 10px;
+}
+#Y2 {
+   margin-top: -50px;
+    height: 500px;
+    width: 325px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 10px;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+#Y2:hover {
+    color: gold;
+    box-shadow: 0 0 30px orangered;
+}
+.Y2 {
+    margin-top: -530px;
+    margin-left: 400px;
+}
+#Text2 {
+    color: #ffffff;
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+    margin-top: -15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 480px;
+    font-size: 23.3px;
+    color: #ffffff;
+    -webkit-text-stroke: 1px gold;
+    background-color: rgb(94, 4, 4);
+    border-color: gold;
+    border: 10px solid transparent;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: rgba(10, 0, 0, 0.7);
+}
+#Text2:hover {
+    color: gold;
+    box-shadow: 0 0 15px gold;
+}
+.Y2 {
+    color: #ffffff;
+    border: solid;
+    border-width: 1px;
+    margin-top: -130px;
+    margin-left: 60px;
+    margin-right: 50px;
+    font-size: 23.3px;
+    color: #ffffff;
+    -webkit-text-stroke: 1px gold;
+    border-color: gold;
+    border: 10px solid transparent;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 700px;
+}
+.Y2:hover {
+    color: gold;
+    box-shadow: 0 0 30px gold;
+    background-color: #2a2709;
+}
+#Y1 {
+    margin-top: 30px;
+}
+#Y3 {
+    margin-top: -40px;
+    height: 500px;
+    width: 325px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 10px;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+#Y3:hover {
+    color: gold;
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+}
+#Text3 {
+    color: #ffffff;
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+    margin-top: -10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 480px;
+    font-size: 22.9px;
+    color: #ffffff;
+    -webkit-text-stroke: 1px gold;
+    background-color: rgb(94, 4, 4);
+    border-color: gold;
+    border: 10px solid transparent;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: rgba(10, 0, 0, 0.7);
+}
+#Text3:hover {
+    color: gold;
+    box-shadow: 0 0 15px gold;
+}
+.Y3 {
+    color: #ffffff;
+    border: solid;
+    border-width: 1px;
+    margin-top: -100px;
+    margin-left: 60px;
+    margin-right: 50px;
+    font-size: 23.3px;
+    color: #ffffff;
+    -webkit-text-stroke: 1px gold;
+    border-color: gold;
+    border: 10px solid transparent;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 700px;
+}
+.Y3:hover {
+    color: gold;
+    box-shadow: 0 0 30px gold;
+    background-color: #2a2709;
+}
+#Y4 {
+    margin-top: 30px;
+}
+#L1 {
+    border-color: rgb(255, 255, 255);
+}
+#L2 {
+    border-color: rgb(255, 255, 255);
+}
+#S1 {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    border-color: gold;
+    border: 10px solid transparent;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 650px;
+}
+#S1:hover {
+    color: blue;
+    box-shadow: 3px 3px 30px rgb(36, 0, 241);
+}
+
+
+
+
+
+
+.gojo-intro {
+  text-align: center;
+  padding: 60px 20px 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.gojo-intro h2 {
+  font-size: 2.5rem;
+  color: #00cfff;
+  margin-bottom: 16px;
+}
+
+.gojo-intro p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #ccc;
+}
+
+/* ── ACCORDION CARDS ── */
+.gojo-accordion {
+  display: flex;
+  height: 500px;
+  gap: 10px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  flex: 1;                          
+  background-image: var(--bg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: flex 0.6s ease;
+  position: relative;
+  min-width: 0;
+}
+
+.card:hover {
+  flex: 5;                          
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: background 0.4s ease;
+}
+
+.card:hover::before {
+  background: rgba(0, 0, 0, 0.3);
+}
+.card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #fff;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.4s ease 0.2s, transform 0.4s ease 0.2s;
+  overflow: hidden;
+  white-space: normal;
+}
+.card:hover .card-content {
+  opacity: 1;
+  transform: translateY(0);
+}
+.card-content h3 {
+  font-size: 1.4rem;
+  color: #00cfff;
+  margin-bottom: 8px;
+}
+.card-content p {
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+#G10 {
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px white;
+}
+#G9 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-style: italic;
+    margin-top: -30px;
+}
+#G11 {
+    color: red;
+}
+#G12 {
+    color: blue;
+    -webkit-text-stroke: white;
+}
+#G13 {
+    -webkit-text-stroke: white;
+    color: rgb(255, 0, 255);
+}
+.G13 {
+    color: white;
+}
+
+
+
+.video-section {
+  text-align: center;
+  padding: 20px 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.video-label {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-size: 2rem;
+  color: gold;
+  -webkit-text-stroke: 1px #333;
+  margin-bottom: 16px;
+  text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+}
+.video-wrapper video {
+  width: 100%;
+  border-radius: 16px;
+  border: 3px solid gold;
+  box-shadow: 0 0 40px rgba(255, 215, 0, 0.3);
+  background: #0a0a0a;
+}
+.sukuna-vid .video-wrapper video {
+  border-color: #c00;
+  box-shadow: 0 0 40px rgba(200, 0, 0, 0.4);
+}
+ 
+/* ── CURSED SPIRITS INTRO ── */
+.curses-intro {
+  text-align: center;
+  padding: 60px 20px 30px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+.curses-eyebrow {
+  font-family: monospace;
+  letter-spacing: 4px;
+  font-size: 0.85rem;
+  color: #ff4444;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.curses-title {
+  font-family: 'Georgia', serif;
+  font-size: 3.5rem;
+  font-style: italic;
+  color: #1a0000;
+  -webkit-text-stroke: 2px #ff4444;
+  text-shadow: 0 0 30px rgba(255, 0, 0, 0.4);
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.curses-subtitle {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #fff;
+  -webkit-text-stroke: 0.3px rgba(255,255,255,0.3);
+  max-width: 700px;
+  margin: 0 auto;
+}
+ 
+/* ── SPIRIT CARDS ── */
+.spirits-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+.spirit-card {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  background: rgba(10, 0, 0, 0.7);
+  border: 1px solid rgba(255, 80, 0, 0.3);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+  padding: 20px;
+}
+.spirit-card:hover {
+  box-shadow: 0 0 40px rgba(255, 60, 0, 0.3);
+  border-color: rgba(255, 140, 0, 0.6);
+}
+.spirit-card.reverse {
+  flex-direction: row-reverse;
+}
+.spirit-img-wrap {
+  position: relative;
+  flex-shrink: 0;
+}
+.spirit-img-wrap img {
+  width: 260px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  background: #1a0a0a;
+}
+.spirit-glow {
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+.spirit-card:hover .spirit-glow { opacity: 1; }
+.mahito-glow  { box-shadow: 0 0 30px 8px rgba(150, 0, 200, 0.5) inset; }
+.jogo-glow    { box-shadow: 0 0 30px 8px rgba(255, 80, 0, 0.5) inset; }
+.hanami-glow  { box-shadow: 0 0 30px 8px rgba(0, 180, 80, 0.5) inset; }
+.dagon-glow   { box-shadow: 0 0 30px 8px rgba(0, 100, 255, 0.5) inset; }
+.kenjaku-glow { box-shadow: 0 0 30px 8px rgba(200, 200, 0, 0.4) inset; }
+ 
+.spirit-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+.spirit-tag {
+  display: inline-block;
+  font-family: monospace;
+  letter-spacing: 2px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #ff8800;
+  border: 1px solid #ff8800;
+  padding: 3px 10px;
+  border-radius: 4px;
+  width: fit-content;
+}
+.spirit-name {
+  font-family: 'Georgia', serif;
+  font-size: 2.2rem;
+  font-style: italic;
+  color: #fff;
+  -webkit-text-stroke: 1px rgba(255,140,0,0.6);
+  margin: 0;
+}
+.spirit-desc {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #ddd;
+}
+ 
+/* ── SUKUNA AURA INTRO ── */
+.sukuna-intro-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  text-align: center;
+}
+.sukuna-curtain {
+  border: 1px solid rgba(200, 0, 0, 0.4);
+  border-radius: 16px;
+  padding: 50px 40px;
+  background: rgba(30, 0, 0, 0.6);
+  box-shadow: 0 0 60px rgba(200, 0, 0, 0.2), inset 0 0 60px rgba(0,0,0,0.5);
+  animation: pulseRed 4s ease-in-out infinite;
+}
+@keyframes pulseRed {
+  0%, 100% { box-shadow: 0 0 40px rgba(200,0,0,0.2), inset 0 0 40px rgba(0,0,0,0.5); }
+  50%       { box-shadow: 0 0 80px rgba(200,0,0,0.5), inset 0 0 60px rgba(0,0,0,0.5); }
+}
+.sukuna-eyebrow {
+  font-family: monospace;
+  letter-spacing: 6px;
+  font-size: 0.8rem;
+  color: #ff4444;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.sukuna-intro-title {
+  font-family: 'Georgia', serif;
+  font-size: 3rem;
+  font-style: italic;
+  color: #000;
+  -webkit-text-stroke: 2px #cc0000;
+  text-shadow: 0 0 40px rgba(200,0,0,0.8);
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+.sukuna-intro-body {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  color: #eee;
+  font-style: italic;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+.sukuna-divider {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: #cc0000;
+  font-size: 1.2rem;
+  letter-spacing: 10px;
+}
+ 
+/* ── SUKUNA MAIN HEADER ── */
+.sukuna-main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 40px 10px;
+  text-align: center;
+}
+#SK1 {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-size: 90px;
+  color: #000;
+  -webkit-text-stroke: 2px #cc0000;
+  text-shadow: 0 0 50px rgba(200,0,0,0.6);
+  margin-bottom: 6px;
+}
+.sukuna-tagline {
+  font-family: monospace;
+  letter-spacing: 3px;
+  color: #ff4444;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+#SK-intro {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #ddd;
+  max-width: 800px;
+  margin: 0 auto;
+}
+ 
+/* ── SUKUNA ACCORDION OVERRIDE ── */
+.sukuna-accordion .card-content h3 {
+  color: #ff4444;
+}
+.sukuna-accordion .card:hover {
+  box-shadow: 0 0 30px rgba(200,0,0,0.5);
+}
+ 
+/* ── ENDING SECTION ── */
+.ending-section {
+  text-align: center;
+  padding: 70px 40px 80px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+.ending-eyebrow {
+  font-family: monospace;
+  letter-spacing: 4px;
+  font-size: 0.8rem;
+  color: gold;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.ending-title {
+  font-family: 'Georgia', serif;
+  font-size: 3rem;
+  font-style: italic;
+  color: #fff;
+  -webkit-text-stroke: 1px gold;
+  text-shadow: 0 0 30px rgba(255,215,0,0.3);
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.ending-body {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  color: #ddd;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ending-credits {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  font-family: monospace;
+  font-size: 0.8rem;
+  color: rgba(255,215,0,0.5);
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+ 
+/* ── ROW CONTAINER (ensure it's defined) ── */
+.row-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.right-box {
+  flex: 1;
+}

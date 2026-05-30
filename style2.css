@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: white;
+    background-color: midnightblue;
+    font-family: "Fjalla One", "consolas", sans-serif;
+    border-top-style: inset;
+    border-left-style: dotted;
+    border-bottom-style: inset;
+    border-left-width: 5px;
+    border-top-color: lightblue;
+    padding: 5px;
+}
+#p1 {
+    background-color: rgb(2, 10, 83);
+    color: white;
+    text-decoration: yellow dotted underline;
+}
+#p2 {
+    background-color: blanchedalmond;
+    color: rgb(3, 129, 171);
+}
+#p4 {
+    background-color: burlywood;
+    color: chartreuse;
+}
+#p3 {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+p {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+        border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: rgb(5, 101, 218);
+    padding: 5px;
+}
