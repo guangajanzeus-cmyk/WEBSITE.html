@@ -1,0 +1,141 @@
+body {
+    background-image: url(image/gojo\ satoru\ wallpaper\ pc.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+}
+h1 {
+    background: linear-gradient(to left,rgb(118, 203, 222), rgb(255, 255, 255));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h2 {
+    background: linear-gradient(to left, rgb(93, 202, 248), rgb(255, 255, 255));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#Clover1 {
+    color:rgb(0, 0, 0);
+    border: 5px solid;
+    width: 250px;
+    height: 380px;
+    font-size: 22px;
+    background: rgb(37, 224, 16);
+    padding: 10px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+#clover2 {
+    color:rgb(0, 0, 0);
+    border: 5px solid;
+    width: 250px;
+    height: 380px;
+    font-size: 22px;
+    background: rgb(1, 98, 253);
+    margin-left: 50px;
+    margin-right: auto;
+}
+.box {
+    width: 100px;
+    height: 200px;
+    border: 1px solid;
+    text-align: center;
+    background-color:chartreuse;
+    border-color: rgb(255, 0, 0);
+    float: left;
+    margin-left: 30px;
+}
+p {
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+}
+#tomoe1 {
+    height: 200px;
+    width: 200px;
+    border: 10px solid;
+    background-color: rgb(175, 19, 19);
+     border-radius: 120px;
+
+    position: relative;
+}
+#tomoe2 {
+    height: 30px;
+    width: 30px;
+    border: 2px solid;
+    background-color: black;
+    border-radius: 120px; 
+
+    position: absolute;
+    top: 83px;
+    left: 83px;
+}
+#tomoe3 {
+    color: black;
+    border-radius: 120px;
+    height: 100px;
+    width: 100px;
+    border: 5px solid;
+    border-style: dotted;
+    
+    position:absolute;
+    top: -40px;
+    left: -40px;
+}
+a:link {
+    color:rgb(6, 168, 63);
+}
+a:visited {
+    color: grey;
+}
+a:active{
+    color: aqua;
+}
+a:hover {
+    color: tomato;
+}
+button:hover {
+    background-color: greenyellow;
+}
+button:active{
+    background-color: blueviolet;
+}
+
+li:nth-child(even){
+   background-color: black;
+   color: red;
+}
+li:nth-child(odd){
+    color: blue;
+}
+h3 {
+   color: white;
+}
+#jjk1 {
+    text-shadow: 10px 0px 10px blue;
+    box-shadow: 10px 5px 10px blue;
+    width: 100px;
+    color: aqua;
+}
+#jjk2{
+    text-shadow: 10px 0px 10px purple;
+    box-shadow: 10px 5px 10px purple;
+    width: 100px;
+    color: rgb(250, 149, 250);
+}
+#jjk3{
+    text-shadow: 10px 0px 10px red;
+    box-shadow: 10px 5px 10px red;
+    width: 100px;
+    color: orangered;
+}
+#box1 {
+    height: 250px;
+    width: 250px;
+    background: blue;
+    text-align: center;
+    font-size: 200px;
+
+    transform: skewX(120deg);
+}
