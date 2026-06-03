@@ -70,14 +70,15 @@ body {
     margin-top: -15px;
     margin-left: 50px;
     margin-right: 50px;
-    height: 480px;
-    font-size: 25px;
+    height: auto;
+    font-size: 16px;
     -webkit-text-stroke: 1px gold;
     border: 10px solid transparent;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     background: rgba(10, 0, 0, 0.7);
+    overflow-y: auto;
 }
 #Text1:hover { box-shadow: 0 0 15px gold; }
 
@@ -114,14 +115,15 @@ body {
     margin-top: -15px;
     margin-left: 50px;
     margin-right: 50px;
-    height: 480px;
-    font-size: 23.3px;
+    height: auto;
+    font-size: 16px;
     -webkit-text-stroke: 1px gold;
     border: 10px solid transparent;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     background: rgba(10, 0, 0, 0.7);
+    overflow-y: auto;
 }
 #Text2:hover { box-shadow: 0 0 15px gold; }
 
@@ -160,14 +162,15 @@ body {
     margin-top: -10px;
     margin-left: 50px;
     margin-right: 50px;
-    height: 480px;
-    font-size: 22.9px;
+    height: auto;
+    font-size: 16px;
     -webkit-text-stroke: 1px gold;
     border: 10px solid transparent;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     background: rgba(10, 0, 0, 0.7);
+    overflow-y: auto;
 }
 #Text3:hover { box-shadow: 0 0 15px gold; }
 
