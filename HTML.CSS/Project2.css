@@ -729,3 +729,36 @@ img, video {
   max-width: 1200px; /* Won't grow larger than 1200px on desktop */
   margin: 0 auto;    /* Centers the layout */
 }
+@media (max-width: 600px) {
+  
+  /* 1. Stop images from stretching the screen width */
+  img, video {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* 2. Fix massive headings (Gojo, Sukuna, etc.) so they don't break lines awkwardly */
+  h1 {
+    font-size: 28px !important;
+    line-height: 1.2 !important;
+    word-wrap: break-word;
+  }
+
+  h2 {
+    font-size: 20px !important;
+    line-height: 1.3 !important;
+  }
+
+  /* 3. Fix paragraph text so it's readable and stays inside the boundaries */
+  p, strong {
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+  }
+
+  /* 4. Force any containers to shrink down nicely instead of staying wide */
+  div, section, main, .container {
+    max-width: 100% !important;
+    width: auto !important;
+    box-sizing: border-box;
+  }
+}
