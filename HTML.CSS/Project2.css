@@ -1,3 +1,7 @@
+/* ==========================================
+   BASE STYLES (Desktop / original look kept)
+   ========================================== */
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 500px;
@@ -17,7 +21,7 @@ h3 {
     font-style: italic;
     font-family: sans-serif;
     color: goldenrod;
-    -webkit-text-stroke: 1px #eb766e ;
+    -webkit-text-stroke: 1px #eb766e;
 }
 h2 {
     font-weight: 100px;
@@ -32,119 +36,68 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    margin: 0px
+    margin: 0px;
 }
+
+/* ── SORCERER IMAGES ── */
 #G1 {
     margin-top: -50px;
     height: 500px;
     width: 325px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-radius: 30px;
     margin-left: 10px;
     border: 1px solid transparent;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
-#G1:hover {
-    color: gold;
-    box-shadow: 0 0 30px rgb(40, 97, 255);
-}
+#G1:hover { box-shadow: 0 0 30px rgb(40, 97, 255); }
+
 .G1 {
     margin-top: -95px;
     margin-left: 60px;
     border: 10px solid transparent;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     margin-right: 650px;
-   
 }
 .G1:hover {
     color: gold;
     box-shadow: 0 0 30px gold;
     background-color: #2a2709;
 }
+
 #Text1 {
     color: #ffffff;
     text-align: center;
-    border: solid;
-    border-width: 1px;
     margin-top: -15px;
     margin-left: 50px;
     margin-right: 50px;
     height: 480px;
     font-size: 25px;
-    color: #ffffff;
     -webkit-text-stroke: 1px gold;
-    background-color: rgb(94, 4, 4);
-    border-color: gold;
-    border: 10px solid transparent;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    background: rgba(10, 0, 0, 0.7)
-}
-#Text1:hover {
-    color: gold;
-    box-shadow: 0 0 15px gold;
-}
-#G2 {
-    margin-top: 10px;
-}
-#Y2 {
-   margin-top: -50px;
-    height: 500px;
-    width: 325px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    margin-left: 10px;
-    border: 1px solid transparent;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-#Y2:hover {
-    color: gold;
-    box-shadow: 0 0 30px orangered;
-}
-.Y2 {
-    margin-top: -530px;
-    margin-left: 400px;
-}
-#Text2 {
-    color: #ffffff;
-    text-align: center;
-    border: solid;
-    border-width: 1px;
-    margin-top: -15px;
-    margin-left: 50px;
-    margin-right: 50px;
-    height: 480px;
-    font-size: 23.3px;
-    color: #ffffff;
-    -webkit-text-stroke: 1px gold;
-    background-color: rgb(94, 4, 4);
-    border-color: gold;
     border: 10px solid transparent;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     background: rgba(10, 0, 0, 0.7);
 }
-#Text2:hover {
-    color: gold;
-    box-shadow: 0 0 15px gold;
+#Text1:hover { box-shadow: 0 0 15px gold; }
+
+#Y2 {
+    margin-top: -50px;
+    height: 500px;
+    width: 325px;
+    border-radius: 30px;
+    margin-left: 10px;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
+#Y2:hover { box-shadow: 0 0 30px orangered; }
+
 .Y2 {
     color: #ffffff;
-    border: solid;
-    border-width: 1px;
     margin-top: -130px;
     margin-left: 60px;
-    margin-right: 50px;
     font-size: 23.3px;
-    color: #ffffff;
     -webkit-text-stroke: 1px gold;
-    border-color: gold;
     border: 10px solid transparent;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     margin-right: 700px;
@@ -154,60 +107,43 @@ body {
     box-shadow: 0 0 30px gold;
     background-color: #2a2709;
 }
-#Y1 {
-    margin-top: 30px;
-}
-#Y3 {
-    margin-top: -40px;
-    height: 500px;
-    width: 325px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    margin-left: 10px;
-    border: 1px solid transparent;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-#Y3:hover {
-    color: gold;
-    box-shadow: 0 0 30px rgb(255, 255, 255);
-}
-#Text3 {
+
+#Text2 {
     color: #ffffff;
     text-align: center;
-    border: solid;
-    border-width: 1px;
-    margin-top: -10px;
+    margin-top: -15px;
     margin-left: 50px;
     margin-right: 50px;
     height: 480px;
-    font-size: 22.9px;
-    color: #ffffff;
+    font-size: 23.3px;
     -webkit-text-stroke: 1px gold;
-    background-color: rgb(94, 4, 4);
-    border-color: gold;
     border: 10px solid transparent;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     background: rgba(10, 0, 0, 0.7);
 }
-#Text3:hover {
-    color: gold;
-    box-shadow: 0 0 15px gold;
+#Text2:hover { box-shadow: 0 0 15px gold; }
+
+#Y1 { margin-top: 30px; }
+
+#Y3 {
+    margin-top: -40px;
+    height: 500px;
+    width: 325px;
+    border-radius: 30px;
+    margin-left: 10px;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
+#Y3:hover { box-shadow: 0 0 30px rgb(255, 255, 255); }
+
 .Y3 {
     color: #ffffff;
-    border: solid;
-    border-width: 1px;
     margin-top: -100px;
     margin-left: 60px;
-    margin-right: 50px;
     font-size: 23.3px;
-    color: #ffffff;
     -webkit-text-stroke: 1px gold;
-    border-color: gold;
     border: 10px solid transparent;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     margin-right: 700px;
@@ -217,22 +153,35 @@ body {
     box-shadow: 0 0 30px gold;
     background-color: #2a2709;
 }
-#Y4 {
-    margin-top: 30px;
+
+#Text3 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 480px;
+    font-size: 22.9px;
+    -webkit-text-stroke: 1px gold;
+    border: 10px solid transparent;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: rgba(10, 0, 0, 0.7);
 }
-#L1 {
-    border-color: rgb(255, 255, 255);
-}
-#L2 {
-    border-color: rgb(255, 255, 255);
-}
+#Text3:hover { box-shadow: 0 0 15px gold; }
+
+.Y3 { color: #ffffff; }
+#Y4 { margin-top: 30px; }
+#L1 { border-color: rgb(255, 255, 255); }
+#L2 { border-color: rgb(255, 255, 255); }
+
 #S1 {
     font-family: sans-serif;
     font-style: italic;
     font-size: 100px;
     color: rgb(0, 0, 0);
     -webkit-text-stroke: 2px rgb(255, 255, 255);
-    border-color: gold;
     border: 10px solid transparent;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     margin-right: 650px;
@@ -242,231 +191,190 @@ body {
     box-shadow: 3px 3px 30px rgb(36, 0, 241);
 }
 
-
-
-
-
-
+/* ── GOJO INTRO ── */
 .gojo-intro {
-  text-align: center;
-  padding: 60px 20px 30px;
-  max-width: 800px;
-  margin: 0 auto;
-  color: #fff;
+    text-align: center;
+    padding: 60px 20px 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fff;
 }
-
 .gojo-intro h2 {
-  font-size: 2.5rem;
-  color: #00cfff;
-  margin-bottom: 16px;
+    font-size: 2.5rem;
+    color: #00cfff;
+    margin-bottom: 16px;
 }
-
 .gojo-intro p {
-  font-size: 1rem;
-  line-height: 1.7;
-  color: #ccc;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #ccc;
 }
 
 /* ── ACCORDION CARDS ── */
 .gojo-accordion {
-  display: flex;
-  height: 500px;
-  gap: 10px;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
+    display: flex;
+    height: 500px;
+    gap: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
-
 .card {
-  flex: 1;                          
-  background-image: var(--bg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 12px;
-  overflow: hidden;
-  cursor: pointer;
-  transition: flex 0.6s ease;
-  position: relative;
-  min-width: 0;
+    flex: 1;
+    background-image: var(--bg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: flex 0.6s ease;
+    position: relative;
+    min-width: 0;
 }
-
-.card:hover {
-  flex: 5;                          
-}
-
+.card:hover { flex: 5; }
 .card::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.5);
-  transition: background 0.4s ease;
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: background 0.4s ease;
 }
-
-.card:hover::before {
-  background: rgba(0, 0, 0, 0.3);
-}
+.card:hover::before { background: rgba(0, 0, 0, 0.3); }
 .card-content {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-  color: #fff;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.4s ease 0.2s, transform 0.4s ease 0.2s;
-  overflow: hidden;
-  white-space: normal;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.4s ease 0.2s, transform 0.4s ease 0.2s;
+    overflow: hidden;
+    white-space: normal;
 }
-.card:hover .card-content {
-  opacity: 1;
-  transform: translateY(0);
-}
+.card:hover .card-content { opacity: 1; transform: translateY(0); }
 .card-content h3 {
-  font-size: 1.4rem;
-  color: #00cfff;
-  margin-bottom: 8px;
+    font-size: 1.4rem;
+    color: #00cfff;
+    margin-bottom: 8px;
 }
-.card-content p {
-  font-size: 0.85rem;
-  line-height: 1.5;
-}
-#G10 {
-    color: rgb(0, 0, 0);
-    -webkit-text-stroke: 1px white;
-}
-#G9 {
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-style: italic;
-    margin-top: -30px;
-}
-#G11 {
-    color: red;
-}
-#G12 {
-    color: blue;
-    -webkit-text-stroke: white;
-}
-#G13 {
-    -webkit-text-stroke: white;
-    color: rgb(255, 0, 255);
-}
-.G13 {
-    color: white;
-}
+.card-content p { font-size: 0.85rem; line-height: 1.5; }
 
+#G10 { color: rgb(0, 0, 0); -webkit-text-stroke: 1px white; }
+#G9 { color: rgb(255, 255, 255); font-size: 30px; font-style: italic; margin-top: -30px; }
+#G11 { color: red; }
+#G12 { color: blue; -webkit-text-stroke: white; }
+#G13 { -webkit-text-stroke: white; color: rgb(255, 0, 255); }
+.G13 { color: white; }
 
-
+/* ── VIDEO ── */
 .video-section {
-  text-align: center;
-  padding: 20px 40px;
-  max-width: 900px;
-  margin: 0 auto;
+    text-align: center;
+    padding: 20px 40px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 .video-label {
-  font-family: 'Georgia', serif;
-  font-style: italic;
-  font-size: 2rem;
-  color: gold;
-  -webkit-text-stroke: 1px #333;
-  margin-bottom: 16px;
-  text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 2rem;
+    color: gold;
+    -webkit-text-stroke: 1px #333;
+    margin-bottom: 16px;
+    text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
 }
 .video-wrapper video {
-  width: 100%;
-  border-radius: 16px;
-  border: 3px solid gold;
-  box-shadow: 0 0 40px rgba(255, 215, 0, 0.3);
-  background: #0a0a0a;
+    width: 100%;
+    border-radius: 16px;
+    border: 3px solid gold;
+    box-shadow: 0 0 40px rgba(255, 215, 0, 0.3);
+    background: #0a0a0a;
 }
 .sukuna-vid .video-wrapper video {
-  border-color: #c00;
-  box-shadow: 0 0 40px rgba(200, 0, 0, 0.4);
+    border-color: #c00;
+    box-shadow: 0 0 40px rgba(200, 0, 0, 0.4);
 }
- 
+
 /* ── CURSED SPIRITS INTRO ── */
 .curses-intro {
-  text-align: center;
-  padding: 60px 20px 30px;
-  max-width: 850px;
-  margin: 0 auto;
+    text-align: center;
+    padding: 60px 20px 30px;
+    max-width: 850px;
+    margin: 0 auto;
 }
 .curses-eyebrow {
-  font-family: monospace;
-  letter-spacing: 4px;
-  font-size: 0.85rem;
-  color: #ff4444;
-  margin-bottom: 10px;
-  text-transform: uppercase;
+    font-family: monospace;
+    letter-spacing: 4px;
+    font-size: 0.85rem;
+    color: #ff4444;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
 .curses-title {
-  font-family: 'Georgia', serif;
-  font-size: 3.5rem;
-  font-style: italic;
-  color: #1a0000;
-  -webkit-text-stroke: 2px #ff4444;
-  text-shadow: 0 0 30px rgba(255, 0, 0, 0.4);
-  margin-bottom: 20px;
-  margin-top: 0;
+    font-family: 'Georgia', serif;
+    font-size: 3.5rem;
+    font-style: italic;
+    color: #1a0000;
+    -webkit-text-stroke: 2px #ff4444;
+    text-shadow: 0 0 30px rgba(255, 0, 0, 0.4);
+    margin-bottom: 20px;
+    margin-top: 0;
 }
 .curses-subtitle {
-  font-size: 1.1rem;
-  line-height: 1.8;
-  color: #fff;
-  -webkit-text-stroke: 0.3px rgba(255,255,255,0.3);
-  max-width: 700px;
-  margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #fff;
+    max-width: 700px;
+    margin: 0 auto;
 }
- 
+
 /* ── SPIRIT CARDS ── */
 .spirits-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 40px;
 }
 .spirit-card {
-  display: flex;
-  gap: 30px;
-  align-items: flex-start;
-  background: rgba(10, 0, 0, 0.7);
-  border: 1px solid rgba(255, 80, 0, 0.3);
-  border-radius: 16px;
-  overflow: hidden;
-  transition: box-shadow 0.3s ease, border-color 0.3s ease;
-  padding: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    background: rgba(10, 0, 0, 0.7);
+    border: 1px solid rgba(255, 80, 0, 0.3);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    padding: 20px;
 }
 .spirit-card:hover {
-  box-shadow: 0 0 40px rgba(255, 60, 0, 0.3);
-  border-color: rgba(255, 140, 0, 0.6);
+    box-shadow: 0 0 40px rgba(255, 60, 0, 0.3);
+    border-color: rgba(255, 140, 0, 0.6);
 }
-.spirit-card.reverse {
-  flex-direction: row-reverse;
-}
+.spirit-card.reverse { flex-direction: row-reverse; }
 .spirit-img-wrap {
-  position: relative;
-  flex-shrink: 0;
+    position: relative;
+    flex-shrink: 0;
 }
 .spirit-img-wrap img {
-  width: 260px;
-  height: 320px;
-  object-fit: cover;
-  border-radius: 12px;
-  display: block;
-  background: #1a0a0a;
+    width: 260px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    background: #1a0a0a;
 }
 .spirit-glow {
-  position: absolute;
-  inset: 0;
-  border-radius: 12px;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  pointer-events: none;
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
 }
 .spirit-card:hover .spirit-glow { opacity: 1; }
 .mahito-glow  { box-shadow: 0 0 30px 8px rgba(150, 0, 200, 0.5) inset; }
@@ -474,283 +382,496 @@ body {
 .hanami-glow  { box-shadow: 0 0 30px 8px rgba(0, 180, 80, 0.5) inset; }
 .dagon-glow   { box-shadow: 0 0 30px 8px rgba(0, 100, 255, 0.5) inset; }
 .kenjaku-glow { box-shadow: 0 0 30px 8px rgba(200, 200, 0, 0.4) inset; }
- 
+
 .spirit-info {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  justify-content: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
 }
 .spirit-tag {
-  display: inline-block;
-  font-family: monospace;
-  letter-spacing: 2px;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  color: #ff8800;
-  border: 1px solid #ff8800;
-  padding: 3px 10px;
-  border-radius: 4px;
-  width: fit-content;
+    display: inline-block;
+    font-family: monospace;
+    letter-spacing: 2px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: #ff8800;
+    border: 1px solid #ff8800;
+    padding: 3px 10px;
+    border-radius: 4px;
+    width: fit-content;
 }
 .spirit-name {
-  font-family: 'Georgia', serif;
-  font-size: 2.2rem;
-  font-style: italic;
-  color: #fff;
-  -webkit-text-stroke: 1px rgba(255,140,0,0.6);
-  margin: 0;
+    font-family: 'Georgia', serif;
+    font-size: 2.2rem;
+    font-style: italic;
+    color: #fff;
+    -webkit-text-stroke: 1px rgba(255,140,0,0.6);
+    margin: 0;
 }
-.spirit-desc {
-  font-size: 1rem;
-  line-height: 1.75;
-  color: #ddd;
-}
- 
-/* ── SUKUNA AURA INTRO ── */
+.spirit-desc { font-size: 1rem; line-height: 1.75; color: #ddd; }
+
+/* ── SUKUNA INTRO ── */
 .sukuna-intro-section {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 60px 40px;
-  text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    text-align: center;
 }
 .sukuna-curtain {
-  border: 1px solid rgba(200, 0, 0, 0.4);
-  border-radius: 16px;
-  padding: 50px 40px;
-  background: rgba(30, 0, 0, 0.6);
-  box-shadow: 0 0 60px rgba(200, 0, 0, 0.2), inset 0 0 60px rgba(0,0,0,0.5);
-  animation: pulseRed 4s ease-in-out infinite;
+    border: 1px solid rgba(200, 0, 0, 0.4);
+    border-radius: 16px;
+    padding: 50px 40px;
+    background: rgba(30, 0, 0, 0.6);
+    box-shadow: 0 0 60px rgba(200, 0, 0, 0.2), inset 0 0 60px rgba(0,0,0,0.5);
+    animation: pulseRed 4s ease-in-out infinite;
 }
 @keyframes pulseRed {
-  0%, 100% { box-shadow: 0 0 40px rgba(200,0,0,0.2), inset 0 0 40px rgba(0,0,0,0.5); }
-  50%       { box-shadow: 0 0 80px rgba(200,0,0,0.5), inset 0 0 60px rgba(0,0,0,0.5); }
+    0%, 100% { box-shadow: 0 0 40px rgba(200,0,0,0.2), inset 0 0 40px rgba(0,0,0,0.5); }
+    50%       { box-shadow: 0 0 80px rgba(200,0,0,0.5), inset 0 0 60px rgba(0,0,0,0.5); }
 }
 .sukuna-eyebrow {
-  font-family: monospace;
-  letter-spacing: 6px;
-  font-size: 0.8rem;
-  color: #ff4444;
-  text-transform: uppercase;
-  margin-bottom: 16px;
+    font-family: monospace;
+    letter-spacing: 6px;
+    font-size: 0.8rem;
+    color: #ff4444;
+    text-transform: uppercase;
+    margin-bottom: 16px;
 }
 .sukuna-intro-title {
-  font-family: 'Georgia', serif;
-  font-size: 3rem;
-  font-style: italic;
-  color: #000;
-  -webkit-text-stroke: 2px #cc0000;
-  text-shadow: 0 0 40px rgba(200,0,0,0.8);
-  margin-bottom: 24px;
-  margin-top: 0;
+    font-family: 'Georgia', serif;
+    font-size: 3rem;
+    font-style: italic;
+    color: #000;
+    -webkit-text-stroke: 2px #cc0000;
+    text-shadow: 0 0 40px rgba(200,0,0,0.8);
+    margin-bottom: 24px;
+    margin-top: 0;
 }
 .sukuna-intro-body {
-  font-size: 1.1rem;
-  line-height: 1.9;
-  color: #eee;
-  font-style: italic;
-  max-width: 700px;
-  margin: 0 auto 30px;
+    font-size: 1.1rem;
+    line-height: 1.9;
+    color: #eee;
+    font-style: italic;
+    max-width: 700px;
+    margin: 0 auto 30px;
 }
 .sukuna-divider {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  color: #cc0000;
-  font-size: 1.2rem;
-  letter-spacing: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #cc0000;
+    font-size: 1.2rem;
+    letter-spacing: 10px;
 }
- 
-/* ── SUKUNA MAIN HEADER ── */
+
+/* ── SUKUNA MAIN ── */
 .sukuna-main {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 30px 40px 10px;
-  text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 40px 10px;
+    text-align: center;
 }
 #SK1 {
-  font-family: 'Georgia', serif;
-  font-style: italic;
-  font-size: 90px;
-  color: #000;
-  -webkit-text-stroke: 2px #cc0000;
-  text-shadow: 0 0 50px rgba(200,0,0,0.6);
-  margin-bottom: 6px;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 90px;
+    color: #000;
+    -webkit-text-stroke: 2px #cc0000;
+    text-shadow: 0 0 50px rgba(200,0,0,0.6);
+    margin-bottom: 6px;
 }
 .sukuna-tagline {
-  font-family: monospace;
-  letter-spacing: 3px;
-  color: #ff4444;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  margin-bottom: 20px;
+    font-family: monospace;
+    letter-spacing: 3px;
+    color: #ff4444;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 #SK-intro {
-  font-size: 1.05rem;
-  line-height: 1.8;
-  color: #ddd;
-  max-width: 800px;
-  margin: 0 auto;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #ddd;
+    max-width: 800px;
+    margin: 0 auto;
 }
- 
-/* ── SUKUNA ACCORDION OVERRIDE ── */
-.sukuna-accordion .card-content h3 {
-  color: #ff4444;
-}
-.sukuna-accordion .card:hover {
-  box-shadow: 0 0 30px rgba(200,0,0,0.5);
-}
- 
-/* ── ENDING SECTION ── */
+.sukuna-accordion .card-content h3 { color: #ff4444; }
+.sukuna-accordion .card:hover { box-shadow: 0 0 30px rgba(200,0,0,0.5); }
+
+/* ── ENDING ── */
 .ending-section {
-  text-align: center;
-  padding: 70px 40px 80px;
-  max-width: 850px;
-  margin: 0 auto;
+    text-align: center;
+    padding: 70px 40px 80px;
+    max-width: 850px;
+    margin: 0 auto;
 }
 .ending-eyebrow {
-  font-family: monospace;
-  letter-spacing: 4px;
-  font-size: 0.8rem;
-  color: gold;
-  text-transform: uppercase;
-  margin-bottom: 16px;
+    font-family: monospace;
+    letter-spacing: 4px;
+    font-size: 0.8rem;
+    color: gold;
+    text-transform: uppercase;
+    margin-bottom: 16px;
 }
 .ending-title {
-  font-family: 'Georgia', serif;
-  font-size: 3rem;
-  font-style: italic;
-  color: #fff;
-  -webkit-text-stroke: 1px gold;
-  text-shadow: 0 0 30px rgba(255,215,0,0.3);
-  margin-bottom: 20px;
-  margin-top: 0;
+    font-family: 'Georgia', serif;
+    font-size: 3rem;
+    font-style: italic;
+    color: #fff;
+    -webkit-text-stroke: 1px gold;
+    text-shadow: 0 0 30px rgba(255,215,0,0.3);
+    margin-bottom: 20px;
+    margin-top: 0;
 }
 .ending-body {
-  font-size: 1.1rem;
-  line-height: 1.9;
-  color: #ddd;
-  margin-bottom: 40px;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
+    font-size: 1.1rem;
+    line-height: 1.9;
+    color: #ddd;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .ending-credits {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-  font-family: monospace;
-  font-size: 0.8rem;
-  color: rgba(255,215,0,0.5);
-  letter-spacing: 2px;
-  margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    font-family: monospace;
+    font-size: 0.8rem;
+    color: rgba(255,215,0,0.5);
+    letter-spacing: 2px;
+    margin-bottom: 40px;
 }
- 
-/* ── ROW CONTAINER (ensure it's defined) ── */
+
+/* ── ROW CONTAINER ── */
 .row-container {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
 }
-.right-box {
-  flex: 1;
-}
+.right-box { flex: 1; }
+
+/* ── ARC CARD ── */
 .A1 {
-  color: rgb(255, 0, 0);
-  height: 800px;
-  width: 1000px;
-  margin: auto;
-  background-color: black;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 1px solid;
-  transition: border-color 0.3s ease, border-shadow 0.3s ease;
-  border-color: 1px red;
+    color: rgb(255, 0, 0);
+    height: 800px;
+    width: 1000px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid red;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
-.A1:hover {
-  color: rgb(255, 0, 0);
-  box-shadow: 0 0 30px rgb(250, 32, 32);
-}
+.A1:hover { box-shadow: 0 0 30px rgb(250, 32, 32); }
 .A2 {
-  height: 500px;
-  width: 900px;
-  margin-left: 50px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  margin-top: 50px;
-  border: 1px solid transparent;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    height: 500px;
+    width: 900px;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-top: 50px;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
-.A2:hover {
-  color: rgb(254, 0, 0);
-  box-shadow: 0 0 10px rgb(255, 255, 255);
-}
+.A2:hover { box-shadow: 0 0 10px rgb(255, 255, 255); }
 .A3 {
-  display: inline-block;
-  font-family: monospace;
-  letter-spacing: 2px;
-  font-size: 1rem;
-  text-transform: uppercase;
-  color: #ff8800;
-  border: 1px solid #ff8800;
-  padding: 3px 10px;
-  border-radius: 4px;
-  width: fit-content;
-  margin-left: 50px;
-  height: 20px;
-  margin-top: 10px;
+    display: inline-block;
+    font-family: monospace;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #ff8800;
+    border: 1px solid #ff8800;
+    padding: 3px 10px;
+    border-radius: 4px;
+    width: fit-content;
+    margin-left: 50px;
+    height: 20px;
+    margin-top: 10px;
 }
 .A4 {
-  font-family: 'Georgia', serif;
-  font-size: 2.2rem;
-  font-style: italic;
-  color: #fff;
-  -webkit-text-stroke: 1px rgba(255,140,0,0.6);
-  margin: 0;
-  margin-left: 50px;
+    font-family: 'Georgia', serif;
+    font-size: 2.2rem;
+    font-style: italic;
+    color: #fff;
+    -webkit-text-stroke: 1px rgba(255,140,0,0.6);
+    margin: 0;
+    margin-left: 50px;
 }
 .A5 {
-  font-size: 1rem;
-  line-height: 1.75;
-  color: #ddd;
-  text-align: center;
-  margin-left: 30px;
-  margin-right: 30px;
+    font-size: 1rem;
+    line-height: 1.75;
+    color: #ddd;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
 }
+
 img, video {
-  max-width: 100%;
-  height: auto;
-  display: block;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 .container {
-  width: 90%;       /* Takes up 90% of the screen on mobile */
-  max-width: 1200px; /* Won't grow larger than 1200px on desktop */
-  margin: 0 auto;    /* Centers the layout */
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
-@media (max-width: 600px) {
-  
-  /* 1. Locks the entire page container to the phone screen width */
-  html, body {
-    max-width: 100% !important;
-    overflow-x: hidden !important; /* Forces the sideways scrollbar to vanish */
-    margin: 0 !important;
-    padding: 0 !important;
-  }
 
-  /* 2. Forces ALL images (including that giant title logo) to shrink and fit */
-  img, svg, picture {
-    max-width: 100% !important;
-    width: 100% !important;
-    height: auto !important;
-    object-fit: contain !important;
-  }
 
-  /* 3. Keeps your text headers from running off the screen */
-  h1, h2, h3 {
-    font-size: 1.8rem !important;
-    word-wrap: break-word !important;
-    max-width: 100% !important;
-  }
+/* ==========================================
+   TABLET  (max-width: 900px)
+   ========================================== */
+@media (max-width: 900px) {
+
+    h1 {
+        margin-left: 0;
+        text-align: center;
+        font-size: 2rem;
+    }
+    hr {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    h2 {
+        font-size: 2rem;
+        margin-top: 0;
+        text-align: center;
+    }
+    h3 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* Sorcerer rows */
+    .row-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    #G1, #Y2, #Y3 {
+        margin-top: 0;
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .G1, .Y2, .Y3 {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: block;
+    }
+    #Text1, #Text2, #Text3 {
+        margin-left: 10px;
+        margin-right: 10px;
+        height: auto;
+        font-size: 1rem;
+        padding: 15px;
+    }
+
+    /* Gojo S1 title */
+    #S1 {
+        font-size: 3.5rem;
+        margin-right: 0;
+        text-align: center;
+    }
+    #G9 { font-size: 1.1rem; text-align: center; }
+
+    /* Accordion: stack vertically on tablet */
+    .gojo-accordion {
+        flex-direction: column;
+        height: auto;
+        gap: 16px;
+    }
+    .card {
+        height: 260px;
+        flex: none;
+    }
+    .card:hover { flex: none; }
+    .card-content { opacity: 1; transform: none; }
+
+    /* Spirit cards */
+    .spirit-card,
+    .spirit-card.reverse {
+        flex-direction: column;
+        align-items: center;
+    }
+    .spirit-img-wrap img {
+        width: 100%;
+        height: 260px;
+    }
+    .spirits-grid { padding: 20px 16px; }
+
+    /* Sukuna */
+    #SK1 { font-size: 3.5rem; }
+    .sukuna-curtain { padding: 30px 20px; }
+    .sukuna-intro-title { font-size: 2rem; }
+
+    /* Arc card */
+    .A1 {
+        width: 95%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .A2 {
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .A4 { margin-left: 10px; }
+    .A3 { margin-left: 10px; }
+    .A5 { margin-left: 10px; margin-right: 10px; }
+
+    .ending-credits { flex-direction: column; gap: 6px; }
+
+    .curses-title { font-size: 2.2rem; }
+    .ending-title { font-size: 2rem; }
+}
+
+
+/* ==========================================
+   MOBILE  (max-width: 480px)
+   ========================================== */
+@media (max-width: 480px) {
+
+    body {
+        background-attachment: scroll; /* fixed bg is slow on phones */
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-left: 0;
+        padding: 0 12px;
+    }
+    h2 {
+        font-size: 1.6rem;
+        padding: 0 12px;
+    }
+    h3 {
+        font-size: 1rem;
+        margin-left: 0;
+        padding: 0 12px;
+    }
+    hr {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* Sorcerer images */
+    #G1, #Y2, #Y3 {
+        width: 95%;
+        height: auto;
+        margin: 10px auto;
+    }
+    .G1, .Y2, .Y3 {
+        font-size: 1rem;
+        margin: 8px 12px;
+        text-align: center;
+        display: block;
+    }
+    #Text1, #Text2, #Text3 {
+        margin: 8px;
+        height: auto;
+        font-size: 0.9rem;
+        padding: 12px;
+        -webkit-text-stroke: 0px; /* easier to read on small screens */
+        border-radius: 16px;
+    }
+
+    /* Gojo name */
+    #S1 {
+        font-size: 2.8rem;
+        margin-right: 0;
+        text-align: center;
+        padding: 0 12px;
+    }
+    #G9 {
+        font-size: 1rem;
+        padding: 0 16px;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    /* Accordion: full-width stacked cards */
+    .gojo-accordion {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        gap: 12px;
+    }
+    .card {
+        height: 220px;
+        flex: none;
+        border-radius: 10px;
+    }
+    .card:hover { flex: none; }
+    .card-content {
+        opacity: 1;
+        transform: none;
+        padding: 12px;
+    }
+    .card-content h3 { font-size: 1rem; }
+    .card-content p { font-size: 0.75rem; }
+
+    /* Video */
+    .video-section { padding: 12px; }
+    .video-label { font-size: 1.3rem; }
+
+    /* Curses intro */
+    .curses-title { font-size: 1.8rem; -webkit-text-stroke: 1px #ff4444; }
+    .curses-subtitle { font-size: 0.95rem; padding: 0 10px; }
+
+    /* Spirit cards */
+    .spirit-card,
+    .spirit-card.reverse {
+        flex-direction: column;
+        align-items: center;
+        padding: 12px;
+        gap: 14px;
+    }
+    .spirit-img-wrap img {
+        width: 100%;
+        height: 220px;
+    }
+    .spirit-name { font-size: 1.6rem; }
+    .spirit-desc { font-size: 0.9rem; }
+    .spirits-grid { padding: 12px; gap: 24px; }
+
+    /* Sukuna */
+    .sukuna-intro-section { padding: 30px 12px; }
+    .sukuna-curtain { padding: 24px 14px; }
+    .sukuna-intro-title { font-size: 1.6rem; -webkit-text-stroke: 1px #cc0000; }
+    .sukuna-intro-body { font-size: 0.95rem; }
+    #SK1 { font-size: 2.8rem; }
+    .sukuna-main { padding: 20px 12px; }
+    #SK-intro { font-size: 0.95rem; }
+
+    /* Ending */
+    .ending-section { padding: 40px 16px; }
+    .ending-title { font-size: 1.6rem; -webkit-text-stroke: 0.5px gold; }
+    .ending-body { font-size: 0.95rem; }
+    .ending-credits { flex-direction: column; gap: 6px; font-size: 0.7rem; }
+
+    /* Arc card */
+    .A1 {
+        width: 95%;
+        height: auto;
+        padding: 0 0 16px 0;
+        margin: 8px auto;
+    }
+    .A2 {
+        width: 92%;
+        height: auto;
+        margin: 12px auto;
+    }
+    .A3, .A4, .A5 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .A4 { font-size: 1.4rem; }
+
+    /* Sukuna divider */
+    .sukuna-divider { letter-spacing: 6px; }
 }
