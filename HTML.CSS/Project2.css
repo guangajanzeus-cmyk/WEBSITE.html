@@ -719,3 +719,13 @@ body {
   margin-left: 30px;
   margin-right: 30px;
 }
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.container {
+  width: 90%;       /* Takes up 90% of the screen on mobile */
+  max-width: 1200px; /* Won't grow larger than 1200px on desktop */
+  margin: 0 auto;    /* Centers the layout */
+}
